@@ -1,0 +1,138 @@
+<p align="center">
+  <a href="https://www.freepbx.org/">
+    <img src="https://www.freepbx.org/wp-content/uploads/Sangoma_FreePBX_Logo_RGB_hori-pos-e1588854523908.png" alt="FreePBX Logo" width="250">
+  </a>
+</p>
+
+<p align="center">
+  A versatile, open-source IP PBX, built on the power of Asterisk.
+</p>
+
+<p align="center">
+
+<a href="https://www.gnu.org/licenses/gpl-3.0.en.html"><img src="https://img.shields.io/badge/License-GPLv3-blue.svg?style=for-the-badge" alt="License: GPL v3"></a>
+<a href="https://community.freepbx.org/"><img src="https://img.shields.io/badge/Community-Forum-orange?style=for-the-badge" alt="Community Forum"></a>
+
+</p>
+
+---
+
+_FreePBX_ is a communications platform that leverages _Asterisk_ to create sophisticated voice, video, and messaging solutions. It offers a user-friendly web interface and a modular architecture, allowing you to tailor your PBX system with a wide range of features. From standard call management to complex call center operations, FreePBX provides the foundation for a modern and scalable communication system.
+
+FreePBX and Asterisk are Registered Trademarks of [Sangoma Technologies, Inc].
+
+## ✨ Features
+
+-   **User-Friendly Web UI:** Manage your complex PBX system through an intuitive graphical interface.
+-   **Modular Architecture:** Add and remove features as needed with a wide variety of available modules.
+-   **Scalable:** Suitable for small businesses to large enterprise call centers.
+-   **Open Source:** Built by a vibrant community and free to use under the GPLv3 license.
+-   **Rich Feature Set:** Includes IVRs, call queues, reporting, voicemail, conferencing, and much more.
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Ensure you have a compatible environment. For detailed requirements, please see the [official documentation](https://sangomakb.atlassian.net/wiki/spaces/FP/pages/9732130/Install+FreePBX).
+
+### Installation
+
+```sh
+# Clone the repository
+git clone [https://github.com/FreePBX/framework.git](https://github.com/FreePBX/framework.git)
+cd framework
+
+# Run the installation script
+./install -n
+```
+
+## 🛠️ Tech Stack
+
+FreePBX uses a number of open-source projects to work properly. The core components include:
+
+-   **[Asterisk]**: The telephony engine that powers FreePBX.
+-   **[PHP]**: The backend scripting language.
+-   **[MariaDB]**: The database used for storing configuration and call data.
+-   **[Apache HTTP Server]**: The web server that delivers the FreePBX interface.
+
+<details>
+<summary>Click to view all backend libraries and dependencies</summary>
+
+#### Backend
+
+-   [Asterisk] - Software PBX. Version: `{{ASTERISK_VERSIONS}}`, License: GPL
+-   [PHP] - General-purpose scripting language. License: PHP License
+-   [MariaDB] - Community-developed fork of MySQL. License: GPL
+-   [Apache HTTP Server] - Open-source HTTP server. License: Apache License 2.0
+-   [Pear Console::Getopt] - PHP implementation of "getopt". License: PHP License
+-   [dialparties.agi] - Ported to PHP by the FreePBX community. License: GPL
+-   [CDR (Call Detail Records) Application] - Originally by Arezqui Belaid. License: GPL
+-   [CssMin] - A simple CSS minifier. License: MIT
+-   [Codeigniter helpers/libraries] - License: GPL
+
+#### PHP Libraries
+
+{{PHP_LIBRARIES}}
+
+#### JavaScript Libraries
+
+{{JS_LIBRARIES}}
+
+</details>
+
+<details>
+<summary>Click to view visual and audio asset information</summary>
+
+### Visuals
+
+FreePBX uses a number of visual graphics packages to render properly:
+
+{{STYLE_LIBRARIES}}
+
+##### Individual Modules may use additional libraries. These can usually be seen in their `composer.json` or `package.json` file.
+
+### Music on Hold
+
+FreePBX incorporates royalty-free music files distributed under the [Creative Commons Attribution-ShareAlike 3.0](http://creativecommons.org/licenses/by-sa/3.0/) license.
+
+-   [macroform-cold_day] - Paul Shuler (Macroform)
+-   [macroform-robot_dity] - Paul Shuler (Macroform)
+-   [macroform-the_simplicity] - Paul Shuler (Macroform)
+-   [manolo_camp-morning_coffee] - Manolo Camp
+-   [reno_project-system] - Reno Project
+
+</details>
+
+## 🤝 Contributing
+
+Please see our [developer docs](https://sangomakb.atlassian.net/wiki/spaces/FP/pages/10584285/FreePBX+Development) for details on our code of conduct, and the process for submitting pull requests to us. Bug reports and feature requests can be submitted through our [issue tracker](https://github.com/FreePBX/issue-tracker)
+
+## ⚖️ License
+
+Distributed under the GPLv3 License. See `LICENSE` for more information.
+
+---
+
+> _{{QUOTE}}_
+
+[Asterisk (PBX)]: http://www.asterisk.org
+[GPLv3]: https://www.gnu.org/licenses/gpl-3.0.en.html
+[Sangoma Technologies, Inc]: https://www.sangoma.com/
+[PHP]: https://www.php.net
+[MariaDB]: https://mariadb.org
+[Apache HTTP Server]: https://httpd.apache.org
+[pear console::getopt]: https://pear.php.net/package/Console_Getopt
+[asterisk]: http://www.asterisk.org
+[dialparties.agi]: http://www.sprackett.com
+[CDR (Call Detail Records) Application]: http://www.asterisk-stats.org
+[spandsp]: http://opencall.org
+[Silk Icon Set]: http://www.famfamfam.com/lab/icons/silk/
+[CssMin]: http://opensource.org/licenses/mit-license.php
+[Codeigniter helpers/librarires]: http://codeigniter.com/user_guide/license.html
+[macroform-cold_day]: http://macroform.bandcamp.com/
+[macroform-robot_dity]: http://macroform.bandcamp.com/
+[macroform-the_simplicity]: http://macroform.bandcamp.com/
+[manolo_camp-morning_coffee]: http://ccmixter.org/people/ManoloCamp
+[reno_project-system]: http://www.jamendo.com/en/album/23661
+[pear db]: http://pear.php.net/package/DB
+[pear console::getopt]: http://pear.php.net/package/Console_Getopt
